@@ -43,15 +43,20 @@ outline: none;
    
     .header-input{
         /* padding: 15px; */
+        display: flex;
+        
+        /* justify-content: center; */
+        align-items: center;
+        /* border: 1px solid red; */
     }
     .header-input input{
-        width: 94vw;
+        
         
     }
-    .search-btn,.h-login-btn{
+    .search-btn{
         display: none;
     }
     .h-body{
-        height:calc(100vh - 100px)
+        height:calc(100vh - 80px)
     }
 }

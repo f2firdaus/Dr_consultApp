@@ -12,13 +12,14 @@ const Headers = ({login}) => {
               <div className="header-input">
                   <input type="text" placeholder='Find your Dr here' />
                   <button className='search-btn'>Search</button>
-              </div>
-              <div className="header-login">
+                  <div className="header-login">
                   {login ? <button className='h-login-btn'>Logout</button> :
                   <button className='h-login-btn' onClick={()=>navigate('/login')}>Login</button>
                   }
                   
               </div>
+              </div>
+             
           </div>   
           <div className="h-body">
               <p>Find you Dr to book an appointment</p>
